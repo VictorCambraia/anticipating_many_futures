@@ -1,5 +1,7 @@
 # Anticipating Many Futures: Online Human Motion Prediction and Generation for Human-Robot Interaction
-Code for https://ieeexplore.ieee.org/abstract/document/8460651
+Code for 
+Bütepage, Judith, Hedvig Kjellström, and Danica Kragic. "Anticipating many futures: Online human motion prediction and generation for human-robot interaction." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
+https://ieeexplore.ieee.org/abstract/document/8460651
 
 
 This code contains code to track a human skeleton using a Kinect sensor and to predict / sample future trajectories using a conditional variational autoencoder. 
@@ -15,6 +17,9 @@ The main action happens in SkeletonTracker.cpp, which records and processes the 
 # Model training
 To predict human joint trajectories, we use a conditional variational temporal autoencoder with feed-forward inference networks.
 The model training is done in python, using theano. The basic code can be found in the python_model_training folder.
+
+# Data
+The collected data described in the paper can be found in the collected_data zip file.
 
 
 
