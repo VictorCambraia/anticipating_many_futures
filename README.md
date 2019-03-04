@@ -19,7 +19,8 @@ To predict human joint trajectories, we use a conditional variational temporal a
 The model training is done in python, using theano. The basic code can be found in the python_model_training folder.
 
 # Data
-The collected data described in the paper can be found in the collected_data zip file.
+The collected data described in the paper can be found in the collected_data zip file. See the python code how to read in the data
+and skeleton_helper.cpp which index matches the corresponding joint positions in the matrices.
 
 
 
