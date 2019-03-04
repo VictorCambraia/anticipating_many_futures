@@ -12,7 +12,8 @@ To run this code, make sure to have installed all dependencies for OpenNI / Prim
 # Use online
 The main action happens in SkeletonTracker.cpp, which records and processes the pose data online and in Vaecoder.cpp, which is responsible for prediction. The integrator.cpp file makes sure that these two processes are synced. 
 
-# Python training
+# Model training
+To predict human joint trajectories, we use a conditional variational temporal autoencoder with feed-forward inference networks.
 The model training is done in python, using theano. The basic code can be found in the python_model_training folder.
 
 
